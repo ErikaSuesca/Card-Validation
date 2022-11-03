@@ -28,4 +28,5 @@ function actualizarValor()
 	parrafoNumeroTdc.innerText = validator.maskify(document.getElementById('inputNumero').value);
 }
 console.log(validator);
+
  
