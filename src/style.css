@@ -1,0 +1,111 @@
+body {  
+    background-image: url(https://t3.ftcdn.net/jpg/04/19/87/58/360_F_419875828_E9u16LI29sBVJUzn4LQc5kif9eew62pA.jpg);
+    background-size: 100%;
+    text-align: center;
+    
+}
+
+h1{
+    font-family: verdana;
+    font-weight: bolder;
+    color: #829298;
+    font-size: xxx-large;
+}
+
+p {
+    font-family: verdana;
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+}
+
+form {
+    font-family: verdana;
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+}
+
+button {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #829298;
+    background-color: #829298;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 7px 20px;
+    text-transform: uppercase;
+    margin-left: 18px;
+    }
+
+
+.tarjeta {
+    background-image: url("img/fondo-tarjeta-2.png");
+    background-color: #82C09A;
+    position: relative;
+    top: 50px; 
+    left: 450px;
+    width: 450px;
+    height: 240px;
+    border-radius: 15px;
+
+    }
+
+.encabezado {
+    padding: 5px;
+    margin: 10px;
+    text-align: left;
+    display: flexbox;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+
+  }
+
+
+  .titulo1{
+    font-size: small;
+    color: white;   
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+    width: 150px;
+    height: 25px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #F24822;
+
+  }
+  .titulo2 {
+    text-align: right;
+    font-size: 22px;
+  }
+  
+  .nombre{
+    text-align: left;
+    font-family: Cambria;
+  }
+
+  .fechaDeVencimiento {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .ValidacionTdc{
+    font-weight: cambria;
+    font-size: small;
+  }
+
+  .mastercard {
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+  }

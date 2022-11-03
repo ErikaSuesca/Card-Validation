@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>GREENBANK ☘</h1>
+      <p>Con el manejo de esta tarjeta de crédito estás contribuyendo al medio ambiente</p>
+    </header>
+    <main>
+      <form>
+        <label for = "Numero"> Número de tarjeta </label>
+        <input type = "text" autocomplete="off" placeholder="Digite su número de tarjeta" name="Numero" id = "inputNumero" maxlength="16" required pattern ="^[0-9]{16}$>"><br><br>
+        <button id="boton-validar">Validar</button>
+        <!--Validar TDC-->
+      </form>
+      <div class="tarjeta">
+        <!--Diseño de tarjeta-->
+        <div class="encabezado">
+          <div class="grid-container">
+            <p class="titulo1">NATURE TEAM </p>
+            <p class="titulo2">GREENBANK 🍀</p>
+            <img src="img/chip-tdc.png" alt="chip">
+            <p class = "fechaDeVencimiento">VALID <br> MM / YY <br> 03 / 29 </p>
+            <p id ="NumeroTdc" class="ValidacionTdc" ></p>
+          </div>
+
+          <div class="grid-container">
+            <p class = "nombre">ERIKA L. RIOS</p>
+            <img src="img/mastercard.png" alt="mastercard" class = "mastercard">
+          </div>
+        </div> 
+      </div> 
+    </main>
+    <footer>
+       <p><br><br><br>Esta tarjeta esta hecha con plástico reciclado</p> 
+    </footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
