@@ -1,7 +1,7 @@
 const validator = {
 
   // Función para mostrar los 4 últimos dígitos y ocultar el restante con el caracter #
-  maskify (digitos){ 
+  maskify: (digitos) =>{ 
     let acumulador = ""; // Esta variable es la que se muestra en el gráfico de la tarjeta de crédito
     for (let index = 0; index < digitos.length ; index ++) {
       if (index > digitos.length - 5) {
@@ -14,11 +14,13 @@ const validator = {
   },
 
   // Algoritmo de lunh
-  isValid (digitos){
+  isValid: function(digitos){
     
     let esImpar = true; // Esta variable funciona como suiche para saber cuadno una posición es par o impar
     let sumaImpar = 0;
     let sumaPar = 0;
+
+
 
     if(digitos === ''){
       alert("El campo esta vacío");

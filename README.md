@@ -9,7 +9,6 @@
 * [3. Objetivos del usuario en relación al producto](#3-objetivos-producto)
 * [4. Ventajas para el usuario](#4-ventajas-usuario)
 * [5. Prototipo](#5-prototipo)
-* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
 ***
 
