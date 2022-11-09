@@ -47,6 +47,6 @@ El usuario al adqurila:
 
 ![Prototipo blanco y negro](./src//img/prototipotdcfigma.png)
 
-### **4.3 Prototipo tarjeta de crédito diseño Final**
+### **4.3 DISEÑO FINAL PROYECTO**
 
 ![Prototipo final TDC](./src/img/Prototipo-final-tdc.png)
