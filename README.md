@@ -37,16 +37,16 @@ El usuario al adqurila:
 - Exenta de cuota de manejo y podrá tener mayor control de gasto
 - Aceptación a nivel mundial ya que contribuye a una buena causa.
 
-## **4. Prototipo**
+## **5. Prototipo**
 
-### **4.1 Prototipo tarjeta de crédito blanco y negro**
+### **5.1 Prototipo tarjeta de crédito blanco y negro**
 
 ![Prototipo blanco y negro](./src/img/prototipo-tdc.jpeg)
 
-### **4.2 Prototipo tarjeta de crédito diseño Figma**
+### **5.2 Prototipo tarjeta de crédito diseño Figma**
 
 ![Prototipo blanco y negro](./src//img/prototipotdcfigma.png)
 
-### **4.3 DISEÑO FINAL PROYECTO**
+### **5.3 DISEÑO FINAL PROYECTO**
 
 ![Prototipo final TDC](./src/img/Prototipo-final-tdc.png)
